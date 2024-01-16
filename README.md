@@ -1,3 +1,4 @@
+# gra_494
 # Midterm Project
 
 The first half of this semester will be dedicated to one project composed of multiple assignments. While this README file only contains the instructions for the first assignment, you will continue to receive new assignments and updated instructions via Canvas that will all apply to expanding this project. A General timeline is as follows:
@@ -36,3 +37,4 @@ Please find 3 examples of organisms for your site. Ensure that they include at l
 ## Submission
 
 Once you have finished your project, push all changes to your remote repository on GitHub and leave a comment on the 'Starting Your Midterm Project' discussion on Canvas notifying me that your work is ready for review.
+
