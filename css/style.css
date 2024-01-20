@@ -63,3 +63,19 @@ p.copyright {
 		margin: 5rem 2rem;
 	}
 }
+
+button.atom-2 {
+    width: 436px;
+	height: 49.6px;
+	border: none;
+    background: #222222;
+    color: white;
+	font-size: 16px;
+}
+
+.psxM{
+	background: #FFFFFF;
+	font-size: 26px;
+	height: 48px;
+    width: 100%;
+}
