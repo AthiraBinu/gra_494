@@ -1,0 +1,146 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	line-height: 1.5;
+	letter-spacing: 0.05em;
+	font-size: 16px;
+	background-color: #303841;
+	color: #d8dee9;
+}
+h1,h2,h3,p,ol,ul,li,a {
+	font-family: sans-serif;
+}
+h1,h2,h3 {
+	font-family: sans-serif;
+	color: #EDEDED;
+}
+h2 {
+	font-size: 1.3em;
+}
+h2.section-head {
+	margin-top:3rem;
+	font-size: 2.4rem;
+}
+a {
+	font-weight: bold;
+	color: #EDEDED;
+	transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+a:hover {
+	color: #848b95;
+}
+code, pre {
+	background-color: #22262a;
+	color: #EDEDED;
+	border-radius: 4px;
+	padding: 0 0.25em;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+img {
+	width: 100%;
+	height: auto;
+}
+section.main {
+    max-width: 700px;
+    margin: 15%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+	transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+section.sub-section {
+	background-color: #848b95;
+	padding: 2rem;
+	margin-top: 3rem;
+	width: 155%;
+}
+p.copyright {
+	margin: 0 auto;
+	margin-bottom: 0.5em;
+    text-align: center;
+    color: #333333;
+}
+
+/* Breakpoint */
+@media screen and (max-width: 700px) {
+	section.main {
+		margin: 5rem 2rem;
+	}
+}
+
+button.atom-2 {
+    width: 436px;
+	height: 49.6px;
+	border: none;
+    background: #222222;
+    color: white;
+	font-size: 16px;
+}
+
+.psxM{
+	background: #FFFFFF;
+	font-size: 26px;
+	height: 48px;
+    width: 100%;
+}
+
+.dfaa38 li {
+	display: inline-block;
+}
+
+/*style for CSS Methodologies*/
+
+.title-highlight {
+	color: #e50010;
+	font-size: 28px;
+	margin: 0;
+}
+
+.text-highlight {
+	color: black;
+	margin: 0;
+}
+
+.primary-button {
+	width: 130.66px;
+	height: 48px;
+	border: none;
+	background: #222222;
+	color: white;
+	font-size: 16px;
+	margin-right: 3%;
+}
+
+.bordered-button {
+	width: 154.66px;
+	height: 48px;
+	font-size: 16px;
+	border: #222222 solid 1px;
+	background-color: transparent;
+	border-color: #222222;
+	color: #222222;
+}
+
+.organism-container {
+	height: 65vh;
+	flex-direction: row-reverse !important;
+	display: flex;
+	background-color: #f1ebdf;
+	width: 155vh;
+}
+
+.info-container {
+	align-items: center;
+	display: flex;
+	margin: 5%;
+}
+
+.organism__img {
+	height: 65vh;
+	width: auto;
+}
